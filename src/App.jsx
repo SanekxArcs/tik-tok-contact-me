@@ -35,8 +35,8 @@ function App() {
 
   return (
     <>
-      <div className=" bg-emerald-900 h-screen w-screen flex justify-center align-middle">
-        <div className="max-h-screen max-w-96 bg-emerald-800 p-5 rounded-md m-1 shadow-md flex flex-col gap-5">
+      <div className=" bg-emerald-950 h-dvh w-screen flex justify-center content-center">
+        <div className="max-h-screen h-fit max-w-96 ring-1 ring-emerald-900 bg-emerald-900 p-5 m-5 rounded-md shadow-md flex flex-col justify-center content-center gap-5">
           <div className="flex justify-center">
             <img
               className="rounded-full h-20"
@@ -45,22 +45,24 @@ function App() {
             />
           </div>
           <div className="select-none">
-            <h1 className="text-3xl text-center text-emerald-50">@Sanekx_Arcs</h1>
+            <h1 className="text-3xl text-center text-emerald-50">
+              @Sanekx_Arcs
+            </h1>
             <h2 className="text-center text-emerald-400">Oleksandr Dzisiak</h2>
             <div className="select-none">
               <ul className="flex flex-wrap gap-1 mt-2.5">
                 <li className="bg-emerald-600 rounded-full">
-                  <p className="text-xs px-2 py-1 text-emerald-300">
+                  <p className="text-xs px-2 py-1 text-emerald-200">
                     Tik-Tok Streamer
                   </p>
                 </li>
                 <li className="bg-emerald-600 rounded-full">
-                  <p className="text-xs px-2 py-1 text-emerald-300">
+                  <p className="text-xs px-2 py-1 text-emerald-200">
                     Web Developer
                   </p>
                 </li>
                 <li className="bg-emerald-600 rounded-full">
-                  <p className="text-xs px-2 py-1 text-emerald-300">Gamer</p>
+                  <p className="text-xs px-2 py-1 text-emerald-200">Gamer</p>
                 </li>
               </ul>
             </div>
